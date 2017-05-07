@@ -43,7 +43,13 @@ header {
     min-width: 200px;
 }
 
-@media (min-width: 921px) {
+.footer {
+    display: flex;
+    margin: auto;
+    height: 500px;
+}
+
+@media screen and (min-width: 921px) {
     .right .avatar {
         order: 2;
     }
@@ -70,7 +76,7 @@ header {
     }
 }
 
-@media (max-width: 920px) {
+@media screen and (max-width: 920px) {
     .left {
         flex: 1;
     }
